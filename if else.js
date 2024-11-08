@@ -1,10 +1,10 @@
 num=prompt("enter a number")
-for(i=num;!(i>=-0);i++){
+for(i=-1;!(i>=0);i++){
     console.log(i)
 }
 
 num=prompt("enter a number")
-for(i=-5;!(i>=0);i++){
+for(i=num;!(i>=0);i++){
     console.log(i)
 }
 
