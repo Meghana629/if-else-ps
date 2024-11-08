@@ -1,9 +1,9 @@
-num=prompt("enter a number")
-for(i=-1;!(i>=0);i++){
+num=+prompt("enter a number")
+for(i=-1;!(i<=num);i--){
     console.log(i)
 }
 
-num=prompt("enter a number")
+num=+prompt("enter a number")
 for(i=num;!(i>=0);i++){
     console.log(i)
 }
